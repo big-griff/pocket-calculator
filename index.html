@@ -8,7 +8,6 @@
   <body>
       <form name="calculator">
          <table>
-
             <tr>
               <td>
                  <input type="text" name="display" id="display" disabled>
@@ -24,7 +23,7 @@
               <td><input type="button" name="four" value="4" onclick ="calculator.display.value += ‘4’"></td>
               <td><input type="button" name="five" value="5" onclick="calculator.display.value += ‘5’"></td>
               <td><input type="button" name="six" value="6" onclick="calculator.display.value += ‘6’"></td>
-              <td><input type="button" class="operator" name="multipliedby" value="*" onclick="calculator.display.value += ‘x’"></td>
+              <td><input type="button" class="operator" name="multipliedby" value="x" onclick="calculator.display.value += ‘x’"></td>
            </tr>
            <tr>
               <td><input type="button" name="seven" value="7" onclick ="calculator.display.value += ‘7’"></td>
@@ -35,7 +34,7 @@
            <tr>
               <td><input type="button" name="zero" value="0" onclick ="calculator.display.value += ‘0’"></td>
               <td><input type="button" name="decimal" value="." onclick="calculator.display.value += ‘.’"></td>
-              <td><input type="button" class="operator" name="factorial" onclick="calculator.display.value += ‘!’"></td>
+              <td><input type="button" class="operator" name="factorial" value="!" onclick="calculator.display.value += ‘!’"></td>
               <td><input type="button" class="operator" name="plus" value="+" onclick="calculator.display.value += ‘+’"></td>
            </tr>
         </table>
