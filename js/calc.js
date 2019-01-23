@@ -296,4 +296,4 @@ function equals(operation){
 }
 
 
-}
+
